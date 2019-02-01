@@ -13,7 +13,7 @@ h1 {
 }
 
 .footer {
-   position:fixed;
+   position:bottom;
    left:0px;
    bottom:0px;
    height:30px;
