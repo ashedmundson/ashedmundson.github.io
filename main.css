@@ -13,10 +13,10 @@ h1 {
 }
 
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #E8FEFF;
-  text-align: center;
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:500px;
+   width:100%;
+   background:#E8FEFF;
 }
