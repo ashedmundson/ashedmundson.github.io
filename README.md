@@ -1,3 +1,3 @@
-# Does this actually work?
+# README
 
-I can't find how to edit the files and everything. I want to make it pretty :/
+Experimenting + website making
