@@ -1,39 +1,23 @@
 
 body {
-	font-family: "Source Sans Pro", "Arial", sans-serif;
-	height: 100%;
-	margin: 0;
-	text-align: center;
-	width: 100%;
+	font-family: "Proxima Nova", "Helvetica", "Arial", sans-serif;
+	font-size: 16px;
+	text-align: left;
+	color: #545454;
+	width: 40%;
 }
 
 h1 {
-  	font-family: Palatino, 'Palatino Linotype', serif;
-	font-size: 32px;
-	color: #00FFAA;
+  	font-family: "Proxima Nova", "Helvetica", "Arial", sans-serif;
+	font-size: 32;
+	text-align: left;
+	color: #545454;
 }
 
 H2 {
+	font-family: "Proxima Nova", "Helvetica", "Arial", sans-serif;
+	font-size: 16px;
+	text-align: left;
+	color: #989898;
 	
-}
-
-H3 {
-	
-}
-
-H4 {
-	
-}
-
-H5 {
-	
-}
-
-.footer {
-   position:bottom;
-   left:0px;
-   bottom:0px;
-   height:30px;
-   width:100%;
-   background:#E8FEFF;
 }
