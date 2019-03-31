@@ -1,7 +1,8 @@
 
 html, body {
 	font-family: "Proxima Nova", "Arial", sans-serif;
-	font-size: 16;
+	font-size: 16px;
+	font-weight: 100;
 	text-align: left;
 	color: #545454;
 	width: 40%;
@@ -9,14 +10,15 @@ html, body {
 
 h1 {
   	font-family: "Proxima Nova", "Arial", sans-serif;
-	font-size: 32;
+	font-size: 32px;
 	text-align: left;
 	color: #545454;
 }
 
 H2 {
 	font-family: "Proxima Nova", "Arial", sans-serif;
-	font-size: 16;
+	font-size: 16px;
+	font-weight: 100;
 	text-align: left;
 	color: #989898;
 }
