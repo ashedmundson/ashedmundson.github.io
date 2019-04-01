@@ -1,10 +1,10 @@
 
-html, body {
+body {
 	font-family: "Proxima Nova", "Arial", sans-serif;
 	font-size: 16px;
 	font-weight: 100;
 	text-align: left;
-	line-height: 120%;
+	line-height: 115%;
 	color: #545454;
 	width: 38%;
 }
