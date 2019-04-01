@@ -27,7 +27,15 @@ H2 {
 
 
 ul {
-	list-style-type: none;
-
+	list-style-type: none;  
+	margin: 30px auto;
+	padding: 0 20px;
+	
 }
 
+li {
+  	width: 24px;
+	Height: 24px;
+  	display: inline-block;
+
+}
