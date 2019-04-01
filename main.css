@@ -29,7 +29,7 @@ H2 {
 ul {
 	list-style-type: none;  
 	margin: 30px auto;
-	padding: 0 20px;
+	position: relative; left: 4px;
 	
 }
 
@@ -38,4 +38,9 @@ li {
 	Height: 24px;
   	display: inline-block;
 
+}
+
+.all-content {
+	margin: 80px;
+	
 }
