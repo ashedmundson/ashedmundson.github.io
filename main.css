@@ -21,17 +21,20 @@ H2 {
 	font-size: 16px;
 	font-weight: 100;
 	text-transform: uppercase;
+	margin-bottom: 32px;
 	color: #989898;
 }
 
 
 ul {
 	list-style-type: none;
+	margin-left: 0px;
+	margin-right: 0px;
 	
 }
 
 li {
-  	margin: 4px;
+  	margin-right: 8px;
 	padding: 2px;
   	display: inline-block;
 
@@ -74,7 +77,7 @@ a:active {
 }
 
 .foot-note {
-	Margin-top: 56px;
+	Margin-top: 32px;
 	font-size: 12px;
 	text-transform: uppercase;
 
