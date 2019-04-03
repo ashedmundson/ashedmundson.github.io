@@ -80,17 +80,17 @@ a:active {
 .sun-hover {
 	position: relative;
 	top: -29px;
-	visibility: hidden;
+	opacity: 0.0;
 
 }
 
 .sun-hover:hover {
-	visibility: visible;
+	opacity: 1.0;
 
 }
 
 .social:hover {
-	opacity: .75;
+	opacity: 0.6;
 }
 
 .foot-note {
