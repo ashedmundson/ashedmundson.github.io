@@ -28,6 +28,7 @@ H2 {
 
 ul {
 	list-style-type: none;
+	padding: 0px;
 	margin-left: 0px;
 	margin-right: 0px;
 	
@@ -35,7 +36,7 @@ ul {
 
 li {
   	margin-right: 8px;
-	padding: 2px;
+	padding: 0px;
   	display: inline-block;
 
 }
