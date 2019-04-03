@@ -37,6 +37,27 @@ li {
 
 }
 
+
+a:link {
+	color: #545454;
+
+}
+
+a:visited {
+	color: #000000;
+
+}
+
+a:hover {
+	color: #FFA61E;
+
+}
+
+a:active {
+	color: #000000;
+
+}
+
 .all-content {
 	margin: 80px;
 	
