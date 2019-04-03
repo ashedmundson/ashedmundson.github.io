@@ -78,8 +78,9 @@ a:active {
 }
 
 .sun-hover {
-	position: absolute;
-	top: 0px;
+	position: relative;
+	top: -29px;
+	visibility: hidden;
 
 }
 
