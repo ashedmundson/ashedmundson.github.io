@@ -76,6 +76,21 @@ a:active {
 	
 }
 
+.sun-hover {
+	position: absolute;
+	visibility: hidden;
+
+}
+
+.sun-hover:hover {
+	visibility: visible;
+
+}
+
+.social:hover {
+	opacity: .75;
+}
+
 .foot-note {
 	Margin-top: 32px;
 	font-size: 12px;
