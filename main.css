@@ -95,9 +95,18 @@ a:active {
 }
 
 .foot-note {
-	Margin-top: 32px;
+	margin-top: 32px;
 	font-size: 12px;
 	text-transform: uppercase;
 	color: #545454;
 
+}
+
+
+*/ Responsive /*
+
+@media only screen and (max-width: 570px) {
+  .all-content {
+    margin: 60px;
+  }
 }
