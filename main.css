@@ -1,27 +1,243 @@
-/* Small - Mobile */
-@media only screen and (max-width: 570px) {
-  .all-content {
-    margin: 24px;
-  }
 
+/* Mobile */
+@media only screen and (max-width: 500px) {
+	
+	.all-content {
+    	margin: 32px;
+  	}
+
+  	.logo-head {
+		margin-bottom: 36px;
+	}
+
+	.logo {
+		height: 10%;
+		width: 10%;
+		min-width: 24px;
+		max-width: 40px;
+	}
+
+	.dark-switch {
+		height: 24px;
+		margin-top: 24px;
+		margin-bottom: 24px;
+	}
+
+	.sun {
+		max-height: 24px;
+	}
+
+	.sun-hover {
+		max-height: 24px;
+		position: relative;
+		top: -29px;
+		opacity: 0.0;
+	}
+
+	.sun-hover:hover {
+		opacity: 1.0;
+	}
+
+	body {
+		font-family: "Proxima Nova", "Arial", sans-serif;
+		font-size: 16px;
+		font-weight: 100;
+		text-align: left;
+		line-height: 130%;
+		color: #545454;
+	}
+
+	h1 {
+  		font-family: "Proxima Nova", "Arial", sans-serif;
+		font-size: 28px;
+		line-height: 110%;
+		margin-top: 36px;
+		margin-bottom: 8px;
+		color: #545454;
+	}
+
+	h2 {
+		font-family: "Proxima Nova", "Arial", sans-serif;
+		font-size: 14px;
+		font-weight: 100;
+		text-transform: uppercase;
+		margin-top: 4px;
+		margin-bottom: 16px;
+		color: #989898;
+	}
+
+	a:link {
+		color: #545454;
+	}
+
+	a:visited {
+		color: #000000;
+	}
+
+	a:hover {
+		color: #FFA61E;
+	}
+
+	a:active {
+		color: #000000;
+	}
+
+	ul {
+		list-style-type: none;
+		height: 16px;
+		padding: 0px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	li {
+		height: 16px;
+		padding: 0px;
+  		display: inline-block;
+	}
+
+	.social {
+		padding-top: 10px;
+		padding-right: 8px;
+		padding-left: 8px;
+		padding-bottom:10px;
+		margin-right: 4px;
+	}
+
+	.social:hover {
+		opacity: 0.6;
+	}
+
+	.foot-note {
+		margin-top: 24px;
+		font-size: 12px;
+		text-transform: uppercase;
+		color: #545454;
+	}
 
 }
 
 
-/* Medium - Tablet */
-@media only screen and (max-width: 570px) {
-  .all-content {
-    margin: 60px;
-  }
+/* Mobile to tablet */
+@media only screen and (min-width: 501px) {
 
+	.all-content {
+    	margin: 60px;
+  	}
+
+  	.logo-head {
+		margin-bottom: 40px;
+	}
+
+	.logo {
+		min-width: 40px;
+		max-width: 40px;
+	}
+
+	.dark-switch {
+		height: 24px;
+		margin-top: 40px;
+		margin-bottom: 40
+		px;
+	}
+
+	.sun {
+		max-height: 24px;
+	}
+
+	.sun-hover {
+		max-height: 24px;
+		position: relative;
+		top: -29px;
+		opacity: 0.0;
+	}
+
+	.sun-hover:hover {
+		opacity: 1.0;
+	}
+
+	body {
+		font-family: "Proxima Nova", "Arial", sans-serif;
+		font-size: 16px;
+		font-weight: 100;
+		text-align: left;
+		line-height: 130%;
+		color: #545454;
+	}
+
+	h1 {
+  		font-family: "Proxima Nova", "Arial", sans-serif;
+		font-size: 28px;
+		line-height: 110%;
+		margin-top: 36px;
+		margin-bottom: 8px;
+		color: #545454;
+	}
+
+	h2 {
+		font-family: "Proxima Nova", "Arial", sans-serif;
+		font-size: 16px;
+		font-weight: 100;
+		text-transform: uppercase;
+		margin-top: 4px;
+		margin-bottom: 16px;
+		color: #989898;
+	}
+
+	a:link {
+		color: #545454;
+	}
+
+	a:visited {
+		color: #000000;
+	}
+
+	a:hover {
+		color: #FFA61E;
+	}
+
+	a:active {
+		color: #000000;
+	}
+
+	ul {
+		list-style-type: none;
+		height: 16px;
+		padding: 0px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	li {
+		height: 16px;
+		padding: 0px;
+  		display: inline-block;
+	}
+
+	.social {
+		padding-top: 10px;
+		padding-right: 8px;
+		padding-left: 8px;
+		padding-bottom:10px;
+		margin-right: 4px;
+	}
+
+	.social:hover {
+		opacity: 0.6;
+	}
+
+	.foot-note {
+		margin-top: 24px;
+		font-size: 12px;
+		text-transform: uppercase;
+		color: #545454;
+	}
 
 }
 
 
-
-
-/* Large - Desktop */
-@media only screen and (max-width: 570px) {
+/* Tablet to desktop */
+@media only screen and (min-width: 600px) {
 
 body {
 	font-family: "Proxima Nova", "Arial", sans-serif;
@@ -40,7 +256,7 @@ h1 {
 	color: #545454;
 }
 
-H2 {
+h2 {
 	font-family: "Proxima Nova", "Arial", sans-serif;
 	font-size: 16px;
 	font-weight: 100;
@@ -50,81 +266,6 @@ H2 {
 	color: #989898;
 }
 
-
-ul {
-	list-style-type: none;
-	padding: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	
-}
-
-li {
-  	margin-right: 8px;
-	padding: 0px;
-  	display: inline-block;
-
-}
-
-
-a:link {
-	color: #545454;
-
-}
-
-a:visited {
-	color: #000000;
-
-}
-
-a:hover {
-	color: #FFA61E;
-
-}
-
-a:active {
-	color: #000000;
-
-}
-
-.all-content {
-	margin: 80px;
-	
-}
-
-.logo-head {
-	margin-bottom: 100px;
-}
-
-.dark-switch {
-	margin-top: 56px;
-	margin-bottom: 56px;
-	
-}
-
-.sun-hover {
-	position: relative;
-	top: -29px;
-	opacity: 0.0;
-
-}
-
-.sun-hover:hover {
-	opacity: 1.0;
-
-}
-
-.social:hover {
-	opacity: 0.6;
-}
-
-.foot-note {
-	margin-top: 32px;
-	font-size: 12px;
-	text-transform: uppercase;
-	color: #545454;
-
-}
 
 }
 
